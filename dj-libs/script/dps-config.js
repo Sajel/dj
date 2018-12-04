@@ -1,4 +1,4 @@
-module.exports = 
+module.exports =
 
     require("./impl/help")
     	.concat(require("./impl/dataset"))
@@ -18,9 +18,10 @@ module.exports =
         .concat(require("./impl/xml"))
         .concat(require("./impl/csv"))
         .concat(require("./impl/text"))
-    
-    
-    
-    
+        .concat(require("./impl/timeseries"))
+
+
+
+
 
 
